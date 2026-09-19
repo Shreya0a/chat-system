@@ -1,0 +1,12 @@
+# Compiled output
+out/
+
+# IDE / OS cruft
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.DS_Store
+Thumbs.db
