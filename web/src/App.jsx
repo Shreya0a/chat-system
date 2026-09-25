@@ -7,7 +7,7 @@ const WS_PORT = 8080
 
 export default function App() {
   const { messages, users, connected, username, connect, sendPublic, sendPrivate, disconnect } = useChat()
-  const [serverHost, setServerHost] = useState(window.location.hostname || '127.0.0.1')
+  const [serverHost, setServerHost] = useState(window.location.hostname )
 
   const handleConnect = (name) => {
     const wsUrl = `ws://${serverHost}:${WS_PORT}/ws`
